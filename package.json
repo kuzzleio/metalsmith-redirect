@@ -11,14 +11,14 @@
   "main": "lib",
   "dependencies": {},
   "devDependencies": {
-    "ava": "0.15.0",
-    "codeclimate-test-reporter": "0.3.1",
+    "ava": "0.19.1",
+    "codeclimate-test-reporter": "0.4.1",
     "gulp": "3.9.1",
     "gulpsmith": "0.5.5",
-    "metalsmith": "2.1.0",
-    "nyc": "6.4.4",
-    "rimraf": "2.5.2",
-    "standard": "7.1.0"
+    "metalsmith": "2.3.0",
+    "nyc": "10.3.0",
+    "rimraf": "2.6.1",
+    "standard": "10.0.2"
   },
   "scripts": {
     "test": "standard && nyc --reporter=html --check-coverage --branches 100 --functions 100 --lines 100 --statements 100 ava",
