@@ -7,6 +7,8 @@
 
 # metalsmith-redirect
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/aymericbeaumet/metalsmith-redirect.svg)](https://greenkeeper.io/)
+
 A Metalsmith plugin to create HTTP redirections.
 
 ## Installation
